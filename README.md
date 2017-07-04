@@ -5,7 +5,7 @@ OpenGL Hair Simulation: My Third coursework for HSE
 
 Tested on GNU/Linux (Gentoo Flavour), kinda works on Macs though a number of features is missing.
 
-The code is MESSY since this project was extremely rushed. Still - it's better to keep it here rather than e-mailing it to myself.
+The code is MESSY since this project was extremely rushed to the deadline, plus my GPU got fried somewhere down the line. How messy? Almost everything is placed in one file, that's how messy it is. Still - it's better to keep it here rather than e-mailing it to myself.
 
 Models are not included, so you won't probably be able to run this program yourself.
 

@@ -1,0 +1,6 @@
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/rebuild_cache.dir
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/edit_cache.dir
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/release.dir
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/debug.dir
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/hair.dir
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/sb7.dir

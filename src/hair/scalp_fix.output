@@ -1,0 +1,371 @@
+General info for program #3: "Model shader"
+Attached shaders: 2
+Active Attributes: 2
+Attribute #0 is of type <35665>, name: "mdlVertexPos"
+Attribute #1 is of type <35664>, name: "textureCoords"
+Active Uniforms: 2
+Uniform #0 is of type <35676>, name: "mvpMatrix"
+Uniform #1 is of type <35678>, name: "modelTexture"
+
+General info for program #10: "Scalp shader"
+Attached shaders: 3
+Active Attributes: 2
+Attribute #0 is of type <35665>, name: "mdlVertexPos"
+Attribute #1 is of type <35664>, name: "textureCoords"
+Active Uniforms: 1
+Uniform #0 is of type <35678>, name: "textureMask"
+
+Scalp contains 110 primitives
+Primitives generated: 110
+del 3
+del 0
+
+del 9
+del 0
+
+del 7
+del 5
+del 1
+del 0
+
+del 0
+
+del 36
+del 33
+del 12
+del 9
+del 2
+del 0
+
+del 10
+del 0
+
+del 57
+del 25
+del 23
+del 3
+del 0
+
+del 52
+del 50
+del 0
+
+del 5
+del 4
+del 1
+del 0
+
+del 21
+del 17
+del 1
+del 0
+
+del 76
+del 74
+del 46
+del 44
+del 0
+
+del 68
+del 42
+del 0
+
+del 65
+del 53
+del 0
+
+del 22
+del 16
+del 8
+del 3
+del 0
+
+del 35
+del 34
+del 5
+del 0
+
+del 32
+del 1
+del 0
+
+del 14
+del 3
+del 0
+
+del 8
+del 6
+del 0
+
+del 8
+del 6
+del 5
+del 4
+del 3
+del 1
+del 0
+
+del 1
+del 0
+
+del 38
+del 36
+del 30
+del 26
+del 24
+del 3
+del 0
+
+del 27
+del 25
+del 0
+
+del 18
+del 16
+del 14
+del 1
+del 0
+
+del 23
+del 11
+del 0
+
+del 8
+del 6
+del 3
+del 0
+
+del 6
+del 5
+del 0
+
+del 6
+del 4
+del 1
+del 0
+
+del 1
+del 0
+
+del 0
+
+del 1
+del 0
+
+del 2
+del 1
+del 0
+
+del 0
+
+del 0
+
+gl_Position:	(13.0449 129.416 25.4554)
+normal amount: 2
+normal:		(-0.611076 -0.536664 -0.581875)
+normal:		(-0.554114 -0.535234 -0.63756)
+
+gl_Position:	(14.4108 136.261 17.7078)
+normal amount: 2
+normal:		(-0.611076 -0.536664 -0.581875)
+normal:		(-0.630809 -0.678911 -0.375712)
+
+gl_Position:	(7.75009 140.995 20.3366)
+normal amount: 4
+normal:		(-0.611076 -0.536664 -0.581875)
+normal:		(-0.554114 -0.535234 -0.63756)
+normal:		(-0.58334 -0.731946 -0.352093)
+normal:		(-0.630809 -0.678911 -0.375712)
+
+gl_Position:	(6.72956 133.349 27.6424)
+normal amount: 1
+normal:		(-0.554114 -0.535234 -0.63756)
+
+gl_Position:	(15.97 141.666 5.32312)
+normal amount: 6
+normal:		(-0.58334 -0.731946 -0.352093)
+normal:		(-0.630809 -0.678911 -0.375712)
+normal:		(-0.532423 -0.839409 -0.109171)
+normal:		(-0.577286 -0.813495 -0.0704783)
+normal:		(-0.898621 -0.435136 -0.0560135)
+normal:		(-0.905301 -0.418849 -0.0706715)
+
+gl_Position:	(8.00999 147.162 7.08577)
+normal amount: 2
+normal:		(-0.58334 -0.731946 -0.352093)
+normal:		(-0.577286 -0.813495 -0.0704783)
+
+gl_Position:	(17.663 138.507 -21.1719)
+normal amount: 5
+normal:		(-0.489823 -0.807418 0.328861)
+normal:		(-0.555333 -0.79321 0.249847)
+normal:		(-0.925514 -0.368338 0.0880449)
+normal:		(-0.909568 -0.410944 0.0617278)
+normal:		(-0.475198 -0.45295 0.754336)
+
+gl_Position:	(7.56823 143.185 -24.7222)
+normal amount: 3
+normal:		(-0.489823 -0.807418 0.328861)
+normal:		(-0.651475 -0.574547 0.495454)
+normal:		(-0.475198 -0.45295 0.754336)
+
+gl_Position:	(6.95125 149.422 -10.3281)
+normal amount: 4
+normal:		(-0.489823 -0.807418 0.328861)
+normal:		(-0.555333 -0.79321 0.249847)
+normal:		(-0.532423 -0.839409 -0.109171)
+normal:		(-0.577286 -0.813495 -0.0704783)
+
+gl_Position:	(16.3312 143.292 -8.94072)
+normal amount: 4
+normal:		(-0.555333 -0.79321 0.249847)
+normal:		(-0.532423 -0.839409 -0.109171)
+normal:		(-0.909568 -0.410944 0.0617278)
+normal:		(-0.905301 -0.418849 -0.0706715)
+
+gl_Position:	(22.057 104.951 -16.6675)
+normal amount: 5
+normal:		(-0.922693 0.377303 0.0792446)
+normal:		(-0.995879 0.083141 0.0362329)
+normal:		(-0.996934 0.0542725 0.0563669)
+normal:		(-0.860832 0.393586 0.322582)
+normal:		(-0.881306 0.43848 0.17617)
+
+gl_Position:	(22.341 103.127 -4.67621)
+normal amount: 3
+normal:		(-0.922693 0.377303 0.0792446)
+normal:		(-0.995879 0.083141 0.0362329)
+normal:		(-0.918983 0.391516 0.0467516)
+
+gl_Position:	(18.5756 94.7762 -8.75886)
+normal amount: 3
+normal:		(-0.922693 0.377303 0.0792446)
+normal:		(-0.973364 0.0784643 0.215422)
+normal:		(-0.918983 0.391516 0.0467516)
+
+gl_Position:	(23.1414 123.016 -7.3756)
+normal amount: 5
+normal:		(-0.998949 0.0112556 0.0444427)
+normal:		(-0.993329 -0.068665 0.0926419)
+normal:		(-0.993442 -0.0167154 -0.113108)
+normal:		(-0.968675 -0.187615 -0.162693)
+normal:		(-0.984262 -0.176063 0.0151547)
+
+gl_Position:	(23.1065 112.673 -5.54056)
+normal amount: 4
+normal:		(-0.998949 0.0112556 0.0444427)
+normal:		(-0.993442 -0.0167154 -0.113108)
+normal:		(-0.995879 0.083141 0.0362329)
+normal:		(-0.996934 0.0542725 0.0563669)
+
+gl_Position:	(22.5718 116.283 -18.4734)
+normal amount: 3
+normal:		(-0.998949 0.0112556 0.0444427)
+normal:		(-0.993329 -0.068665 0.0926419)
+normal:		(-0.996934 0.0542725 0.0563669)
+
+gl_Position:	(21.9317 129.047 -15.8762)
+normal amount: 3
+normal:		(-0.993329 -0.068665 0.0926419)
+normal:		(-0.925514 -0.368338 0.0880449)
+normal:		(-0.984262 -0.176063 0.0151547)
+
+gl_Position:	(22.0479 119.939 2.68348)
+normal amount: 3
+normal:		(-0.993442 -0.0167154 -0.113108)
+normal:		(-0.968675 -0.187615 -0.162693)
+normal:		(-0.993225 -0.0980824 -0.0623227)
+
+gl_Position:	(21.5448 131.88 -8.09127)
+normal amount: 7
+normal:		(-0.925514 -0.368338 0.0880449)
+normal:		(-0.909568 -0.410944 0.0617278)
+normal:		(-0.898621 -0.435136 -0.0560135)
+normal:		(-0.905301 -0.418849 -0.0706715)
+normal:		(-0.968675 -0.187615 -0.162693)
+normal:		(-0.993225 -0.0980824 -0.0623227)
+normal:		(-0.984262 -0.176063 0.0151547)
+
+gl_Position:	(20.8447 131.892 3.04721)
+normal amount: 2
+normal:		(-0.898621 -0.435136 -0.0560135)
+normal:		(-0.993225 -0.0980824 -0.0623227)
+
+gl_Position:	(16.2358 94.243 -19.1368)
+normal amount: 7
+normal:		(-0.707366 0.382298 0.594543)
+normal:		(-0.549107 0.536022 0.641219)
+normal:		(-0.973364 0.0784643 0.215422)
+normal:		(-0.992989 -0.106372 0.0515454)
+normal:		(-0.7616 -0.0306302 0.647323)
+normal:		(-0.860832 0.393586 0.322582)
+normal:		(-0.881306 0.43848 0.17617)
+
+gl_Position:	(8.87096 94.1019 -27.8085)
+normal amount: 3
+normal:		(-0.707366 0.382298 0.594543)
+normal:		(-0.7616 -0.0306302 0.647323)
+normal:		(-0.647025 0.157531 0.746018)
+
+gl_Position:	(10.1895 104.692 -33.0493)
+normal amount: 5
+normal:		(-0.707366 0.382298 0.594543)
+normal:		(-0.549107 0.536022 0.641219)
+normal:		(-0.633234 0.174335 0.75407)
+normal:		(-0.628874 0.169214 0.758871)
+normal:		(-0.261101 0.203693 0.943576)
+
+gl_Position:	(18.4992 104.92 -26.1239)
+normal amount: 3
+normal:		(-0.549107 0.536022 0.641219)
+normal:		(-0.633234 0.174335 0.75407)
+normal:		(-0.860832 0.393586 0.322582)
+
+gl_Position:	(18.226 130.13 -25.8473)
+normal amount: 4
+normal:		(-0.630325 -0.203769 0.749112)
+normal:		(-0.718218 -0.0990022 0.688739)
+normal:		(-0.651475 -0.574547 0.495454)
+normal:		(-0.475198 -0.45295 0.754336)
+
+gl_Position:	(19.7264 117.537 -28.0103)
+normal amount: 3
+normal:		(-0.630325 -0.203769 0.749112)
+normal:		(-0.633234 0.174335 0.75407)
+normal:		(-0.628874 0.169214 0.758871)
+
+gl_Position:	(10.358 117.778 -35.8276)
+normal amount: 4
+normal:		(-0.630325 -0.203769 0.749112)
+normal:		(-0.718218 -0.0990022 0.688739)
+normal:		(-0.628874 0.169214 0.758871)
+normal:		(-0.261101 0.203693 0.943576)
+
+gl_Position:	(10.6694 132.154 -33.4364)
+normal amount: 2
+normal:		(-0.718218 -0.0990022 0.688739)
+normal:		(-0.651475 -0.574547 0.495454)
+
+gl_Position:	(-0.137775 116.982 -38.5601)
+normal amount: 1
+normal:		(-0.261101 0.203693 0.943576)
+
+gl_Position:	(18.1114 82.8514 -6.51287)
+normal amount: 2
+normal:		(-0.973364 0.0784643 0.215422)
+normal:		(-0.992989 -0.106372 0.0515454)
+
+gl_Position:	(17.3873 83.9133 -18.2708)
+normal amount: 3
+normal:		(-0.992989 -0.106372 0.0515454)
+normal:		(-0.7616 -0.0306302 0.647323)
+normal:		(-0.647025 0.157531 0.746018)
+
+gl_Position:	(8.84766 84.6082 -25.824)
+normal amount: 1
+normal:		(-0.647025 0.157531 0.746018)
+
+gl_Position:	(19.0721 95.0344 -1.16157)
+normal amount: 1
+normal:		(-0.918983 0.391516 0.0467516)
+

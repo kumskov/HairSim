@@ -1,0 +1,58 @@
+float mass = 0.05f;
+float springConstant = 10000.0f;
+float springLength = 0.05f;
+float frictionConstant = 0.2f;
+vmath::vec4 gravitation = vmath::vec4(0.0f, -9.81f, 0.0f, 0.0f);
+float airFrictionConstant = 0.02f;
+
+
+for (int j = 0; j < numOfMasses; ++j)
+{
+	hairs[i].forces[j].x = 0;
+	hairs[i].forces[j].y = 0;
+	hairs[i].forces[j].z = 0;
+}
+
+
+
+for (int j = 0; j < numOfMasses - 1; ++j)
+{
+
+	vmath::vec4 springVector = hairs[i].positions[j] - hairs[i].positions[j+1];
+
+	float r = springVector.length();
+
+	vmath::vec4 force;
+
+	if (r != 0)	
+	{
+		force += (springVector / r) * (r - springLength) * (-springConstant);
+	}
+
+	force += -(hairs[i].velocities[j]  - hairs[i].velocities[j+1]) * frictionConstant;
+	
+	hairs[i].forces[j]  += force;
+	hairs[i].forces[j+1] += -force;
+}
+
+for (int j = 0; j < numOfMasses; ++j)
+{
+	hairs[i].forces[j] += gravitation * mass;
+
+	hairs[i].forces[j] += -hairs[i].velocities[j] * airFrictionConstant;
+
+}
+
+
+
+for (int j = 0; j < numOfMasses; ++j)		// We will iterate every mass
+{
+	hairs[i].velocities[j] += (hairs[i].forces[j] / mass) * dt;
+
+	hairs[i].positions[j] += hairs[i].velocities[j] * dt;
+}
+
+
+
+hairs[i].positions[0] = vmath::vec4(0.0f, 0.0f, 0.0f, 0.0f);				//mass with j "0" shall position at ropeConnectionPos
+hairs[i].velocities[0] = vmath::vec4(0.0f, 0.0f, 0.0f, 0.0f);				//the mass's velocity is set to be equal to ropeConnectionVel

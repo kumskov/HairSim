@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names    -o ../bin/dispmap  -L/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/lib -Wl,-rpath,/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/lib lib/libsb7.a -lglfw3 -lX11 -lXrandr -lXinerama -lXi -lXxf86vm -lXcursor -lGL -lrt -ldl 

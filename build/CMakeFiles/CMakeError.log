@@ -1,0 +1,2270 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_052d1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_052d1.dir/build.make CMakeFiles/cmTC_052d1.dir/build
+Building C object CMakeFiles/cmTC_052d1.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_052d1.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_052d1.dir/src.c.o] Error 1
+make: *** [cmTC_052d1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_000d8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_000d8.dir/build.make CMakeFiles/cmTC_000d8.dir/build
+Building C object CMakeFiles/cmTC_000d8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_000d8.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_000d8.dir/src.c.o] Error 1
+make: *** [cmTC_000d8/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30d7e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_30d7e.dir/build.make CMakeFiles/cmTC_30d7e.dir/build
+Building C object CMakeFiles/cmTC_30d7e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_30d7e.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_30d7e.dir/src.c.o] Error 1
+make: *** [cmTC_30d7e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b14aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b14aa.dir/build.make CMakeFiles/cmTC_b14aa.dir/build
+Building C object CMakeFiles/cmTC_b14aa.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_b14aa.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_b14aa.dir/src.c.o] Error 1
+make: *** [cmTC_b14aa/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fd45/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6fd45.dir/build.make CMakeFiles/cmTC_6fd45.dir/build
+Building C object CMakeFiles/cmTC_6fd45.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_6fd45.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_6fd45.dir/src.c.o] Error 1
+make: *** [cmTC_6fd45/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2166/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b2166.dir/build.make CMakeFiles/cmTC_b2166.dir/build
+Building C object CMakeFiles/cmTC_b2166.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_b2166.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b2166.dir/src.c.o] Error 1
+make: *** [cmTC_b2166/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d44e9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d44e9.dir/build.make CMakeFiles/cmTC_d44e9.dir/build
+Building C object CMakeFiles/cmTC_d44e9.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_d44e9.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_d44e9.dir/src.c.o] Error 1
+make: *** [cmTC_d44e9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49949/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_49949.dir/build.make CMakeFiles/cmTC_49949.dir/build
+Building C object CMakeFiles/cmTC_49949.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_49949.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_49949.dir/src.c.o] Error 1
+make: *** [cmTC_49949/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60fee/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_60fee.dir/build.make CMakeFiles/cmTC_60fee.dir/build
+Building C object CMakeFiles/cmTC_60fee.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_60fee.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_60fee.dir/src.c.o] Error 1
+make: *** [cmTC_60fee/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35723/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35723.dir/build.make CMakeFiles/cmTC_35723.dir/build
+Building C object CMakeFiles/cmTC_35723.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_35723.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_35723.dir/src.c.o] Error 1
+make: *** [cmTC_35723/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51c72/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51c72.dir/build.make CMakeFiles/cmTC_51c72.dir/build
+Building CXX object CMakeFiles/cmTC_51c72.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_51c72.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_51c72.dir/src.cxx.o] Error 1
+make: *** [cmTC_51c72/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccb0f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ccb0f.dir/build.make CMakeFiles/cmTC_ccb0f.dir/build
+Building CXX object CMakeFiles/cmTC_ccb0f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_ccb0f.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ccb0f.dir/src.cxx.o] Error 1
+make: *** [cmTC_ccb0f/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07842/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_07842.dir/build.make CMakeFiles/cmTC_07842.dir/build
+Building CXX object CMakeFiles/cmTC_07842.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_07842.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_07842.dir/src.cxx.o] Error 1
+make: *** [cmTC_07842/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d344a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d344a.dir/build.make CMakeFiles/cmTC_d344a.dir/build
+Building CXX object CMakeFiles/cmTC_d344a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_d344a.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_d344a.dir/src.cxx.o] Error 1
+make: *** [cmTC_d344a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75399/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75399.dir/build.make CMakeFiles/cmTC_75399.dir/build
+Building CXX object CMakeFiles/cmTC_75399.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_75399.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_75399.dir/src.cxx.o] Error 1
+make: *** [cmTC_75399/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9db7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9db7.dir/build.make CMakeFiles/cmTC_e9db7.dir/build
+Building CXX object CMakeFiles/cmTC_e9db7.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_e9db7.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e9db7.dir/src.cxx.o] Error 1
+make: *** [cmTC_e9db7/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f43e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1f43e.dir/build.make CMakeFiles/cmTC_1f43e.dir/build
+Building CXX object CMakeFiles/cmTC_1f43e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_1f43e.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_1f43e.dir/src.cxx.o] Error 1
+make: *** [cmTC_1f43e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d854/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d854.dir/build.make CMakeFiles/cmTC_6d854.dir/build
+Building CXX object CMakeFiles/cmTC_6d854.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_6d854.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_6d854.dir/src.cxx.o] Error 1
+make: *** [cmTC_6d854/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_407bf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_407bf.dir/build.make CMakeFiles/cmTC_407bf.dir/build
+Building CXX object CMakeFiles/cmTC_407bf.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_407bf.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_407bf.dir/src.cxx.o] Error 1
+make: *** [cmTC_407bf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d392/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d392.dir/build.make CMakeFiles/cmTC_9d392.dir/build
+Building CXX object CMakeFiles/cmTC_9d392.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_9d392.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_9d392.dir/src.cxx.o] Error 1
+make: *** [cmTC_9d392/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaaf4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_eaaf4.dir/build.make CMakeFiles/cmTC_eaaf4.dir/build
+Building C object CMakeFiles/cmTC_eaaf4.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_eaaf4.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_eaaf4.dir/src.c.o] Error 1
+make: *** [cmTC_eaaf4/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e062/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e062.dir/build.make CMakeFiles/cmTC_1e062.dir/build
+Building C object CMakeFiles/cmTC_1e062.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_1e062.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1e062.dir/src.c.o] Error 1
+make: *** [cmTC_1e062/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50524/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50524.dir/build.make CMakeFiles/cmTC_50524.dir/build
+Building C object CMakeFiles/cmTC_50524.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_50524.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_50524.dir/src.c.o] Error 1
+make: *** [cmTC_50524/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70d93/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70d93.dir/build.make CMakeFiles/cmTC_70d93.dir/build
+Building C object CMakeFiles/cmTC_70d93.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_70d93.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_70d93.dir/src.c.o] Error 1
+make: *** [cmTC_70d93/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dd85/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2dd85.dir/build.make CMakeFiles/cmTC_2dd85.dir/build
+Building C object CMakeFiles/cmTC_2dd85.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_2dd85.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_2dd85.dir/src.c.o] Error 1
+make: *** [cmTC_2dd85/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b97ee/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b97ee.dir/build.make CMakeFiles/cmTC_b97ee.dir/build
+Building C object CMakeFiles/cmTC_b97ee.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_b97ee.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b97ee.dir/src.c.o] Error 1
+make: *** [cmTC_b97ee/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99b67/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_99b67.dir/build.make CMakeFiles/cmTC_99b67.dir/build
+Building C object CMakeFiles/cmTC_99b67.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_99b67.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_99b67.dir/src.c.o] Error 1
+make: *** [cmTC_99b67/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b72c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b72c.dir/build.make CMakeFiles/cmTC_6b72c.dir/build
+Building C object CMakeFiles/cmTC_6b72c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_6b72c.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_6b72c.dir/src.c.o] Error 1
+make: *** [cmTC_6b72c/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11bbb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11bbb.dir/build.make CMakeFiles/cmTC_11bbb.dir/build
+Building C object CMakeFiles/cmTC_11bbb.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_11bbb.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_11bbb.dir/src.c.o] Error 1
+make: *** [cmTC_11bbb/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9066d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9066d.dir/build.make CMakeFiles/cmTC_9066d.dir/build
+Building C object CMakeFiles/cmTC_9066d.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_9066d.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_9066d.dir/src.c.o] Error 1
+make: *** [cmTC_9066d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98ebf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98ebf.dir/build.make CMakeFiles/cmTC_98ebf.dir/build
+Building CXX object CMakeFiles/cmTC_98ebf.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_98ebf.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_98ebf.dir/src.cxx.o] Error 1
+make: *** [cmTC_98ebf/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f3af/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3f3af.dir/build.make CMakeFiles/cmTC_3f3af.dir/build
+Building CXX object CMakeFiles/cmTC_3f3af.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_3f3af.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3f3af.dir/src.cxx.o] Error 1
+make: *** [cmTC_3f3af/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0df53/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0df53.dir/build.make CMakeFiles/cmTC_0df53.dir/build
+Building CXX object CMakeFiles/cmTC_0df53.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_0df53.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_0df53.dir/src.cxx.o] Error 1
+make: *** [cmTC_0df53/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dccac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dccac.dir/build.make CMakeFiles/cmTC_dccac.dir/build
+Building CXX object CMakeFiles/cmTC_dccac.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_dccac.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_dccac.dir/src.cxx.o] Error 1
+make: *** [cmTC_dccac/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5e7e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a5e7e.dir/build.make CMakeFiles/cmTC_a5e7e.dir/build
+Building CXX object CMakeFiles/cmTC_a5e7e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_a5e7e.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_a5e7e.dir/src.cxx.o] Error 1
+make: *** [cmTC_a5e7e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0befe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0befe.dir/build.make CMakeFiles/cmTC_0befe.dir/build
+Building CXX object CMakeFiles/cmTC_0befe.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_0befe.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0befe.dir/src.cxx.o] Error 1
+make: *** [cmTC_0befe/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fb95/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2fb95.dir/build.make CMakeFiles/cmTC_2fb95.dir/build
+Building CXX object CMakeFiles/cmTC_2fb95.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_2fb95.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_2fb95.dir/src.cxx.o] Error 1
+make: *** [cmTC_2fb95/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0839a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0839a.dir/build.make CMakeFiles/cmTC_0839a.dir/build
+Building CXX object CMakeFiles/cmTC_0839a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_0839a.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_0839a.dir/src.cxx.o] Error 1
+make: *** [cmTC_0839a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a92b0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a92b0.dir/build.make CMakeFiles/cmTC_a92b0.dir/build
+Building CXX object CMakeFiles/cmTC_a92b0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_a92b0.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_a92b0.dir/src.cxx.o] Error 1
+make: *** [cmTC_a92b0/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2104/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a2104.dir/build.make CMakeFiles/cmTC_a2104.dir/build
+Building CXX object CMakeFiles/cmTC_a2104.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_a2104.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_a2104.dir/src.cxx.o] Error 1
+make: *** [cmTC_a2104/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35dde/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35dde.dir/build.make CMakeFiles/cmTC_35dde.dir/build
+Building C object CMakeFiles/cmTC_35dde.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_35dde.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_35dde.dir/src.c.o] Error 1
+make: *** [cmTC_35dde/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aac31/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aac31.dir/build.make CMakeFiles/cmTC_aac31.dir/build
+Building C object CMakeFiles/cmTC_aac31.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_aac31.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_aac31.dir/src.c.o] Error 1
+make: *** [cmTC_aac31/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ca42/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0ca42.dir/build.make CMakeFiles/cmTC_0ca42.dir/build
+Building C object CMakeFiles/cmTC_0ca42.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_0ca42.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_0ca42.dir/src.c.o] Error 1
+make: *** [cmTC_0ca42/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63254/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_63254.dir/build.make CMakeFiles/cmTC_63254.dir/build
+Building C object CMakeFiles/cmTC_63254.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_63254.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_63254.dir/src.c.o] Error 1
+make: *** [cmTC_63254/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aeb8e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aeb8e.dir/build.make CMakeFiles/cmTC_aeb8e.dir/build
+Building C object CMakeFiles/cmTC_aeb8e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_aeb8e.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_aeb8e.dir/src.c.o] Error 1
+make: *** [cmTC_aeb8e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0c15/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d0c15.dir/build.make CMakeFiles/cmTC_d0c15.dir/build
+Building C object CMakeFiles/cmTC_d0c15.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_d0c15.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d0c15.dir/src.c.o] Error 1
+make: *** [cmTC_d0c15/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e465/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4e465.dir/build.make CMakeFiles/cmTC_4e465.dir/build
+Building C object CMakeFiles/cmTC_4e465.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_4e465.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_4e465.dir/src.c.o] Error 1
+make: *** [cmTC_4e465/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c516a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c516a.dir/build.make CMakeFiles/cmTC_c516a.dir/build
+Building C object CMakeFiles/cmTC_c516a.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_c516a.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_c516a.dir/src.c.o] Error 1
+make: *** [cmTC_c516a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a7a8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a7a8.dir/build.make CMakeFiles/cmTC_0a7a8.dir/build
+Building C object CMakeFiles/cmTC_0a7a8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_0a7a8.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_0a7a8.dir/src.c.o] Error 1
+make: *** [cmTC_0a7a8/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_617f5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_617f5.dir/build.make CMakeFiles/cmTC_617f5.dir/build
+Building C object CMakeFiles/cmTC_617f5.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_617f5.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_617f5.dir/src.c.o] Error 1
+make: *** [cmTC_617f5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24dae/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_24dae.dir/build.make CMakeFiles/cmTC_24dae.dir/build
+Building CXX object CMakeFiles/cmTC_24dae.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_24dae.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_24dae.dir/src.cxx.o] Error 1
+make: *** [cmTC_24dae/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5468e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5468e.dir/build.make CMakeFiles/cmTC_5468e.dir/build
+Building CXX object CMakeFiles/cmTC_5468e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_5468e.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_5468e.dir/src.cxx.o] Error 1
+make: *** [cmTC_5468e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6228f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6228f.dir/build.make CMakeFiles/cmTC_6228f.dir/build
+Building CXX object CMakeFiles/cmTC_6228f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_6228f.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_6228f.dir/src.cxx.o] Error 1
+make: *** [cmTC_6228f/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9d73/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d9d73.dir/build.make CMakeFiles/cmTC_d9d73.dir/build
+Building CXX object CMakeFiles/cmTC_d9d73.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_d9d73.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_d9d73.dir/src.cxx.o] Error 1
+make: *** [cmTC_d9d73/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97860/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_97860.dir/build.make CMakeFiles/cmTC_97860.dir/build
+Building CXX object CMakeFiles/cmTC_97860.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_97860.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_97860.dir/src.cxx.o] Error 1
+make: *** [cmTC_97860/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2103/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2103.dir/build.make CMakeFiles/cmTC_e2103.dir/build
+Building CXX object CMakeFiles/cmTC_e2103.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_e2103.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e2103.dir/src.cxx.o] Error 1
+make: *** [cmTC_e2103/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_509ac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_509ac.dir/build.make CMakeFiles/cmTC_509ac.dir/build
+Building CXX object CMakeFiles/cmTC_509ac.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_509ac.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_509ac.dir/src.cxx.o] Error 1
+make: *** [cmTC_509ac/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46362/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46362.dir/build.make CMakeFiles/cmTC_46362.dir/build
+Building CXX object CMakeFiles/cmTC_46362.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_46362.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_46362.dir/src.cxx.o] Error 1
+make: *** [cmTC_46362/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7257/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a7257.dir/build.make CMakeFiles/cmTC_a7257.dir/build
+Building CXX object CMakeFiles/cmTC_a7257.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_a7257.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_a7257.dir/src.cxx.o] Error 1
+make: *** [cmTC_a7257/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_add06/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_add06.dir/build.make CMakeFiles/cmTC_add06.dir/build
+Building CXX object CMakeFiles/cmTC_add06.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_add06.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_add06.dir/src.cxx.o] Error 1
+make: *** [cmTC_add06/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93153/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_93153.dir/build.make CMakeFiles/cmTC_93153.dir/build
+Building C object CMakeFiles/cmTC_93153.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_93153.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_93153.dir/src.c.o] Error 1
+make: *** [cmTC_93153/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_585e8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_585e8.dir/build.make CMakeFiles/cmTC_585e8.dir/build
+Building C object CMakeFiles/cmTC_585e8.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_585e8.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_585e8.dir/src.c.o] Error 1
+make: *** [cmTC_585e8/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_434b9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_434b9.dir/build.make CMakeFiles/cmTC_434b9.dir/build
+Building C object CMakeFiles/cmTC_434b9.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_434b9.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_434b9.dir/src.c.o] Error 1
+make: *** [cmTC_434b9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3221e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3221e.dir/build.make CMakeFiles/cmTC_3221e.dir/build
+Building C object CMakeFiles/cmTC_3221e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_3221e.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_3221e.dir/src.c.o] Error 1
+make: *** [cmTC_3221e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bd37/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0bd37.dir/build.make CMakeFiles/cmTC_0bd37.dir/build
+Building C object CMakeFiles/cmTC_0bd37.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_0bd37.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_0bd37.dir/src.c.o] Error 1
+make: *** [cmTC_0bd37/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffd01/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ffd01.dir/build.make CMakeFiles/cmTC_ffd01.dir/build
+Building C object CMakeFiles/cmTC_ffd01.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_ffd01.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ffd01.dir/src.c.o] Error 1
+make: *** [cmTC_ffd01/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35724/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35724.dir/build.make CMakeFiles/cmTC_35724.dir/build
+Building C object CMakeFiles/cmTC_35724.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_35724.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_35724.dir/src.c.o] Error 1
+make: *** [cmTC_35724/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0dfa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f0dfa.dir/build.make CMakeFiles/cmTC_f0dfa.dir/build
+Building C object CMakeFiles/cmTC_f0dfa.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_f0dfa.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_f0dfa.dir/src.c.o] Error 1
+make: *** [cmTC_f0dfa/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab36e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ab36e.dir/build.make CMakeFiles/cmTC_ab36e.dir/build
+Building C object CMakeFiles/cmTC_ab36e.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_ab36e.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_ab36e.dir/src.c.o] Error 1
+make: *** [cmTC_ab36e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8bff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8bff.dir/build.make CMakeFiles/cmTC_c8bff.dir/build
+Building C object CMakeFiles/cmTC_c8bff.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_c8bff.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_c8bff.dir/src.c.o] Error 1
+make: *** [cmTC_c8bff/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a434e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a434e.dir/build.make CMakeFiles/cmTC_a434e.dir/build
+Building CXX object CMakeFiles/cmTC_a434e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_a434e.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_a434e.dir/src.cxx.o] Error 1
+make: *** [cmTC_a434e/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7fa5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b7fa5.dir/build.make CMakeFiles/cmTC_b7fa5.dir/build
+Building CXX object CMakeFiles/cmTC_b7fa5.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_b7fa5.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b7fa5.dir/src.cxx.o] Error 1
+make: *** [cmTC_b7fa5/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0665f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0665f.dir/build.make CMakeFiles/cmTC_0665f.dir/build
+Building CXX object CMakeFiles/cmTC_0665f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_0665f.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_0665f.dir/src.cxx.o] Error 1
+make: *** [cmTC_0665f/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa02b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fa02b.dir/build.make CMakeFiles/cmTC_fa02b.dir/build
+Building CXX object CMakeFiles/cmTC_fa02b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_fa02b.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_fa02b.dir/src.cxx.o] Error 1
+make: *** [cmTC_fa02b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f116d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f116d.dir/build.make CMakeFiles/cmTC_f116d.dir/build
+Building CXX object CMakeFiles/cmTC_f116d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_f116d.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_f116d.dir/src.cxx.o] Error 1
+make: *** [cmTC_f116d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9944b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9944b.dir/build.make CMakeFiles/cmTC_9944b.dir/build
+Building CXX object CMakeFiles/cmTC_9944b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_9944b.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9944b.dir/src.cxx.o] Error 1
+make: *** [cmTC_9944b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e623/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7e623.dir/build.make CMakeFiles/cmTC_7e623.dir/build
+Building CXX object CMakeFiles/cmTC_7e623.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_7e623.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_7e623.dir/src.cxx.o] Error 1
+make: *** [cmTC_7e623/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1eccd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1eccd.dir/build.make CMakeFiles/cmTC_1eccd.dir/build
+Building CXX object CMakeFiles/cmTC_1eccd.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_1eccd.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_1eccd.dir/src.cxx.o] Error 1
+make: *** [cmTC_1eccd/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c2e1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c2e1.dir/build.make CMakeFiles/cmTC_1c2e1.dir/build
+Building CXX object CMakeFiles/cmTC_1c2e1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_1c2e1.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_1c2e1.dir/src.cxx.o] Error 1
+make: *** [cmTC_1c2e1/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8a55/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b8a55.dir/build.make CMakeFiles/cmTC_b8a55.dir/build
+Building CXX object CMakeFiles/cmTC_b8a55.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_b8a55.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_b8a55.dir/src.cxx.o] Error 1
+make: *** [cmTC_b8a55/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee181/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ee181.dir/build.make CMakeFiles/cmTC_ee181.dir/build
+Building C object CMakeFiles/cmTC_ee181.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_ee181.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_ee181.dir/src.c.o] Error 1
+make: *** [cmTC_ee181/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c559d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c559d.dir/build.make CMakeFiles/cmTC_c559d.dir/build
+Building C object CMakeFiles/cmTC_c559d.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_c559d.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c559d.dir/src.c.o] Error 1
+make: *** [cmTC_c559d/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af787/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_af787.dir/build.make CMakeFiles/cmTC_af787.dir/build
+Building C object CMakeFiles/cmTC_af787.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_af787.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_af787.dir/src.c.o] Error 1
+make: *** [cmTC_af787/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c21b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6c21b.dir/build.make CMakeFiles/cmTC_6c21b.dir/build
+Building C object CMakeFiles/cmTC_6c21b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_6c21b.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_6c21b.dir/src.c.o] Error 1
+make: *** [cmTC_6c21b/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e3ec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e3ec.dir/build.make CMakeFiles/cmTC_3e3ec.dir/build
+Building C object CMakeFiles/cmTC_3e3ec.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_3e3ec.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_3e3ec.dir/src.c.o] Error 1
+make: *** [cmTC_3e3ec/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85d13/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_85d13.dir/build.make CMakeFiles/cmTC_85d13.dir/build
+Building C object CMakeFiles/cmTC_85d13.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_85d13.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_85d13.dir/src.c.o] Error 1
+make: *** [cmTC_85d13/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad8d6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ad8d6.dir/build.make CMakeFiles/cmTC_ad8d6.dir/build
+Building C object CMakeFiles/cmTC_ad8d6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_ad8d6.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_ad8d6.dir/src.c.o] Error 1
+make: *** [cmTC_ad8d6/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c020/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c020.dir/build.make CMakeFiles/cmTC_7c020.dir/build
+Building C object CMakeFiles/cmTC_7c020.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_7c020.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_7c020.dir/src.c.o] Error 1
+make: *** [cmTC_7c020/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b13f4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b13f4.dir/build.make CMakeFiles/cmTC_b13f4.dir/build
+Building C object CMakeFiles/cmTC_b13f4.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_b13f4.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_b13f4.dir/src.c.o] Error 1
+make: *** [cmTC_b13f4/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5bfd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b5bfd.dir/build.make CMakeFiles/cmTC_b5bfd.dir/build
+Building C object CMakeFiles/cmTC_b5bfd.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_b5bfd.dir/src.c.o   -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_b5bfd.dir/src.c.o] Error 1
+make: *** [cmTC_b5bfd/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_685b8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_685b8.dir/build.make CMakeFiles/cmTC_685b8.dir/build
+Building CXX object CMakeFiles/cmTC_685b8.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp=libomp   -o CMakeFiles/cmTC_685b8.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_685b8.dir/src.cxx.o] Error 1
+make: *** [cmTC_685b8/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ac76/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4ac76.dir/build.make CMakeFiles/cmTC_4ac76.dir/build
+Building CXX object CMakeFiles/cmTC_4ac76.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTC_4ac76.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4ac76.dir/src.cxx.o] Error 1
+make: *** [cmTC_4ac76/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a34a4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a34a4.dir/build.make CMakeFiles/cmTC_a34a4.dir/build
+Building CXX object CMakeFiles/cmTC_a34a4.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_a34a4.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_a34a4.dir/src.cxx.o] Error 1
+make: *** [cmTC_a34a4/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0976/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d0976.dir/build.make CMakeFiles/cmTC_d0976.dir/build
+Building CXX object CMakeFiles/cmTC_d0976.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTC_d0976.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+make[1]: *** [CMakeFiles/cmTC_d0976.dir/src.cxx.o] Error 1
+make: *** [cmTC_d0976/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3963/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a3963.dir/build.make CMakeFiles/cmTC_a3963.dir/build
+Building CXX object CMakeFiles/cmTC_a3963.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTC_a3963.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+make[1]: *** [CMakeFiles/cmTC_a3963.dir/src.cxx.o] Error 1
+make: *** [cmTC_a3963/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecdf9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ecdf9.dir/build.make CMakeFiles/cmTC_ecdf9.dir/build
+Building CXX object CMakeFiles/cmTC_ecdf9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTC_ecdf9.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ecdf9.dir/src.cxx.o] Error 1
+make: *** [cmTC_ecdf9/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2af5a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2af5a.dir/build.make CMakeFiles/cmTC_2af5a.dir/build
+Building CXX object CMakeFiles/cmTC_2af5a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTC_2af5a.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_2af5a.dir/src.cxx.o] Error 1
+make: *** [cmTC_2af5a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13522/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_13522.dir/build.make CMakeFiles/cmTC_13522.dir/build
+Building CXX object CMakeFiles/cmTC_13522.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTC_13522.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+make[1]: *** [CMakeFiles/cmTC_13522.dir/src.cxx.o] Error 1
+make: *** [cmTC_13522/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8da7a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8da7a.dir/build.make CMakeFiles/cmTC_8da7a.dir/build
+Building CXX object CMakeFiles/cmTC_8da7a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTC_8da7a.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+make[1]: *** [CMakeFiles/cmTC_8da7a.dir/src.cxx.o] Error 1
+make: *** [cmTC_8da7a/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c202/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c202.dir/build.make CMakeFiles/cmTC_1c202.dir/build
+Building CXX object CMakeFiles/cmTC_1c202.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTC_1c202.dir/src.cxx.o -c /Users/mikhailkumskov/Documents/qrsach/HairWerxv3/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+make[1]: *** [CMakeFiles/cmTC_1c202.dir/src.cxx.o] Error 1
+make: *** [cmTC_1c202/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

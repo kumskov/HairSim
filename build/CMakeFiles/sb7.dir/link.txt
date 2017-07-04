@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc lib/libsb7.a  CMakeFiles/sb7.dir/src/sb7/sb7.cpp.o CMakeFiles/sb7.dir/src/sb7/sb7color.cpp.o CMakeFiles/sb7.dir/src/sb7/sb7ktx.cpp.o CMakeFiles/sb7.dir/src/sb7/sb7object.cpp.o CMakeFiles/sb7.dir/src/sb7/sb7shader.cpp.o CMakeFiles/sb7.dir/src/sb7/sb7textoverlay.cpp.o CMakeFiles/sb7.dir/src/sb7/gl3w.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib lib/libsb7.a

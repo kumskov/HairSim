@@ -1,7 +1,7 @@
 # HairSim
 OpenGL Hair Simulation: My Third coursework for HSE
 
-[OpenGL SuperBible framework](https://github.com/openglsuperbible/sb7code) (core class and vmath library, also text printer) are used for this project
+[OpenGL SuperBible framework](https://github.com/openglsuperbible/sb7code) (core class and vmath library, also text printer) is used for this project
 
 Tested on GNU/Linux (Gentoo Flavour), kinda works on Macs though a number of features is missing.
 
